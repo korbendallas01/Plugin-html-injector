@@ -1,0 +1,25 @@
+{
+	"name": "HTML Injector",
+	"version": "1.0.1",
+	"description": "Add arbitrary content before the the closing head and body tags.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Koken",
+		"link": "https://store.koken.me/authors/koken"
+	},
+
+	"koken_version_required": "0.14.5",
+
+	"data": {
+		"header": {
+			"label": "Head",
+			"info": "Code entered here will be adding to the published HTML just before the closing head tag.",
+			"type": "text"
+		},
+		"footer": {
+			"label": "Footer",
+			"info": "Code entered here will be adding to the published HTML just before the closing body tag.",
+			"type": "text"
+		}
+	}
+}
